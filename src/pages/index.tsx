@@ -28,9 +28,8 @@ const Home: NextPage<Props> = ({ allPosts }) => {
         <h1 className={styles.title}>Yokomac Blog</h1>
 
         <Image
-          src={dir+'/ron.png'} // 修正
-          alt="Vercel Logo"
-          className="dark:invert"
+          src={dir+'/public/ron.png'} // 修正
+          alt="ron"
           width={100}
           height={24}
           priority
