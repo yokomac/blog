@@ -108,7 +108,9 @@
   position: relative;
 }
 .footer {
-
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Enable hover only on non-touch devices */
