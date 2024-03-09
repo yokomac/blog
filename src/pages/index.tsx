@@ -33,8 +33,6 @@ const Home: NextPage<Props> = ({ allPosts }) => {
         <Image
           src={`${BASE_PATH}/ron.png`} // 修正
           alt="ron"
-          width={100}
-          height={24}
           priority
         />
 
