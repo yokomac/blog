@@ -6,8 +6,7 @@ import Image from 'next/image'
 
 type Props = InferGetStaticPropsType<typeof getStaticProps>;
 
-import { basePath } from "../../next.config" // 追加
-const BASE_PATH = basePath ? basePath : "" // 追加
+const dir = String(process.env.BACKEND_URL)
 
 export const getStaticProps = async () => {
   const allPosts = getAllPosts(["slug", "title", "date", "tags"]);
@@ -29,7 +28,7 @@ const Home: NextPage<Props> = ({ allPosts }) => {
         <h1 className={styles.title}>Yokomac Blog</h1>
 
         <Image
-          src={`${BASE_PATH}/vercel.svg`} // 修正
+          src={dir+'/public/vercel.svg'} // 修正
           alt="Vercel Logo"
           className="dark:invert"
           width={100}
