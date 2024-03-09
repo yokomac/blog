@@ -111,6 +111,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 30px;
 }
 
 /* Enable hover only on non-touch devices */
