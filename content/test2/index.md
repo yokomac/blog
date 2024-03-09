@@ -1,6 +1,6 @@
 ---
-title: "test post"
-date: "2024/03/10"
+title: "test post2"
+date: "2024/03/12"
 ---
 
 ## test title
