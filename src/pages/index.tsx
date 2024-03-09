@@ -6,7 +6,10 @@ import Image from 'next/image'
 
 type Props = InferGetStaticPropsType<typeof getStaticProps>;
 
-const dir = String(process.env.BACKEND_URL)
+//const dir = String(process.env.BACKEND_URL)
+
+import { basePath } from "../../next.config" // 追加
+const BASE_PATH = basePath ? basePath : "" // 追加
 
 export const getStaticProps = async () => {
   const allPosts = getAllPosts(["slug", "title", "date", "tags"]);
@@ -28,7 +31,7 @@ const Home: NextPage<Props> = ({ allPosts }) => {
         <h1 className={styles.title}>Yokomac Blog</h1>
 
         <Image
-          src={dir+'/ron.png'} // 修正
+          src={`${BASE_PATH}/ron.png`} // 修正
           alt="ron"
           width={100}
           height={24}
