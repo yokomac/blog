@@ -1,5 +1,5 @@
 ---
-title: "Next.js not picture."
+title: "NO picture."
 date: "2024/03/09"
 ---
 
