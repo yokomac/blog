@@ -27,14 +27,13 @@ const Home: NextPage<Props> = ({ allPosts }) => {
         <link rel="icon" href="../../public/favicon.ico" />
       </Head>
 
-      <main className={styles.main}>
-        <h1 className={styles.title}>Yokomac Blog</h1>
-
-        <Image
+      <Image
           src={`${BASE_PATH}/ron.png`} // 修正
           alt="ron"
-          priority
         />
+
+      <main className={styles.main}>
+        <h1 className={styles.title}>Yokomac Blog</h1>
 
         <div className={styles.grid}>
           {allPosts.map((post) => (
