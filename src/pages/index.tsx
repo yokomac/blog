@@ -28,7 +28,7 @@ const Home: NextPage<Props> = ({ allPosts }) => {
         <h1 className={styles.title}>Yokomac Blog</h1>
 
         <Image
-          src={dir+'/vercel.svg'} // 修正
+          src={dir+'/ron.png'} // 修正
           alt="Vercel Logo"
           className="dark:invert"
           width={100}
