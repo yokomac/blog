@@ -11,6 +11,5 @@ const nextConfig = {
   reactStrictMode: true,
   trailingSlash: true,
   images: { unoptimized: true } ,
-  assetPrefix: '/your-base-path/',
 }
 module.exports = nextConfig;
