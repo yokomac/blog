@@ -31,8 +31,8 @@ const Home: NextPage<Props> = ({ allPosts }) => {
       <Image
           src={`${BASE_PATH}/ron.png`} // 修正
           alt="ron"
-          width={20}
-          height={20}
+          width={100}
+          height={100}
         />
         <h1 className={styles.title}>Yokomac Blog</h1>
 
