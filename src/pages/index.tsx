@@ -18,6 +18,12 @@ export const getStaticProps = async () => {
   };
 };
 
+export const metadata = {
+  icons: {
+    icon: '/favicon.ico', // /public path
+  },
+}
+
 const Home: NextPage<Props> = ({ allPosts }) => {
   return (
     <div className={styles.container}>
