@@ -29,7 +29,7 @@ const Home: NextPage<Props> = ({ allPosts }) => {
 
       <main className={styles.main}>
       <Image
-          src={`${BASE_PATH}/ron.png`} // 修正
+          src={`${BASE_PATH}/next.svg`} // 修正
           alt="ron"
           width={100}
           height={100}
