@@ -33,6 +33,7 @@ const Home: NextPage<Props> = ({ allPosts }) => {
           alt="ron"
           width={100}
           height={100}
+          className={styles.logo}
         />
         <h1 className={styles.title}>Yokomac Blog</h1>
 
