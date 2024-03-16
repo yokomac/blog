@@ -7,4 +7,4 @@ date: "2024/03/12"
 
 This post is test.
 
-![alt fower](/img/flower.png)
+![alt fower](/blog/flower.png)
