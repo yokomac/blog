@@ -7,4 +7,4 @@ date: "2024/03/12"
 
 This post is test.
 
-![fower](${BASE_PATH}/flower.png)
+![fower](/flower.png)
