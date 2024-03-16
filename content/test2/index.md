@@ -9,7 +9,7 @@ This post is test.
 
 <Image
   alt={`Flower`}
-  src={`/images/flower.png`}
+  src={`./flower.png`}
   width={100}
   priority
 />
