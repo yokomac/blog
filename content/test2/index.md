@@ -7,4 +7,4 @@ date: "2024/03/12"
 
 This post is test.
 
-![alt text](flower.png)
+![alt text](/content/test2/flower.png)
