@@ -7,12 +7,18 @@ date: "2024/03/12"
 
 This post is test.
 
-<Image src="./flower.png" alt="flower" width="100" priority />
+<Image src={`${BASE_PATH}/flower.png`} alt="flower" width="100" priority />
 
-<image src="./flower.png" alt="flower" width="100" priority />
+<image src={`${BASE_PATH}/flower.png`} alt="flower" width="100" priority />
 
-<image src="./flower.png" alt="flower" width="100" priority >
+<image src={`${BASE_PATH}/flower.png`} alt="flower" width="100" priority >
 
-<img src="./flower.png" alt="flower" width="100" priority />
+<img src={`${BASE_PATH}/flower.png`} alt="flower" width="100" priority />
 
-<img src="./flower.png" alt="flower" width="100">
+<img src="{`${BASE_PATH}/flower.png`} alt="flower" width="100">
+
+![Flower](flower.png)
+
+![Flower](./flower.png)
+
+![Flower](${BASE_PATH}/flower.png)
