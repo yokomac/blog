@@ -15,8 +15,8 @@ This post is test.
 
 ![Flower](flower.png?raw=true)
 
-![Flower]({{site.url}}content/test2/flower.png?raw=true)
+![Flower](${url}content/test2/flower.png?raw=true)
 
-![Flower](https://github.com/yokomac/blog/blob/main/content/test2/flower.png?raw=true =100×)
+![Flower](https://github.com/yokomac/blog/blob/main/content/test2/flower.png?raw=true)
 
 <img src="https://github.com/yokomac/blog/blob/main/content/test2/flower.png?raw=true" alt="Flower" width="100">
