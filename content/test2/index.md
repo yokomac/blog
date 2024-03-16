@@ -7,16 +7,6 @@ date: "2024/03/12"
 
 This post is test.
 
-<Image src={`${BASE_PATH}/flower.png`} alt="flower" width="100" priority />
-<image src={`${BASE_PATH}/flower.png`} alt="flower" width="100" priority />
-<image src={`${BASE_PATH}/flower.png`} alt="flower" width="100" priority >
-<img src={`${BASE_PATH}/flower.png`} alt="flower" width="100" priority />
-<img src="{`${BASE_PATH}/flower.png`} alt="flower" width="100">
+![Flower](https://yokomac.github.io/blog/content/test2/flower.png)
 
-![Flower](flower.png)
-
-![Flower](./flower.png)
-
-![Flower](${BASE_PATH}/flower.png)
-
-<img src="{{site.basePath | prepend: site.url}}/content/test2/flower.png" alt="Flower" />
+<img src="{{site.basePath | prepend: site.url}}/content/test2/flower.png" alt="Flower">
