@@ -7,7 +7,7 @@ date: "2024/03/12"
 
 This post is test.
 
-<Image
+<img
   alt={`Flower`}
   src={`./flower.png`}
   width={100}
