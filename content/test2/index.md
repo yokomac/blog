@@ -8,8 +8,8 @@ date: "2024/03/12"
 This post is test.
 
 <img
-  alt={`Flower`}
-  src={`./flower.png`}
-  width={100}
+  alt=`Flower`
+  src=`./flower.png`
+  width="100"
   priority
-/>
+>
