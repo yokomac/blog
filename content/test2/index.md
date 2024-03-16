@@ -7,4 +7,4 @@ date: "2024/03/12"
 
 This post is test.
 
-![fower](/blog/content/test2/flower.png)
+![fower](${BASE_PATH}/content/test2/flower.png)
