@@ -17,4 +17,4 @@ This post is test.
 
 ![Flower](https://yokomac.github.io/blog/content/test2/flower.png?raw=true)
 
-<img src="{{site.url}}/content/test2/flower.png?raw=true" alt="Flower"/>
+<img src="{{site.url}}content/test2/flower.png?raw=true" alt="Flower">
