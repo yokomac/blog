@@ -7,4 +7,4 @@ date: "2024/03/12"
 
 This post is test.
 
-![fower](https://github.com/yokomac/blog/blob/main/content/test2/flower.png?raw=true)
+![fower](/blog/content/test2/flower.png)
