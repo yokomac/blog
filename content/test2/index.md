@@ -7,4 +7,4 @@ date: "2024/03/12"
 
 This post is test.
 
-<img src="/blog/content/test2/flower.png" alt="flower" width="100">
+<image src="/blog/content/test2/flower.png" alt="flower" width="100">
