@@ -12,6 +12,6 @@ const nextConfig = {
   trailingSlash: true,
   images: { unoptimized: true } ,
   assetPrefix: process.env.BASE_PATH || '',
-  url: 'https://yokomac.github.io/blog/'
+  url: 'https://github.com/yokomac/blog/blob/main/',
 }
 module.exports = nextConfig;
