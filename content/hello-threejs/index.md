@@ -1,5 +1,5 @@
 ---
-title: "Hello-Threejs"
+title: "Hello Three.js"
 date: "2024/03/11"
 ---
 
