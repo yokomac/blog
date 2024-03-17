@@ -121,7 +121,8 @@
 
 .content {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  width: 100%;
 }
 
 /* Enable hover only on non-touch devices */
