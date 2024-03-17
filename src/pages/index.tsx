@@ -41,8 +41,8 @@ const Home: NextPage<Props> = ({ allPosts }) => {
           I am a web developer focusing on front-end development.
           Always hungry to keep learning.
         </p>
-        <hr/>
         <div className="contact">
+          <hr/>
           <a href="https://github.com/yokomac/">
             <Image
               src={`${BASE_PATH}/github-mark.svg`}

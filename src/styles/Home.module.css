@@ -7,8 +7,7 @@
 .navi {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   min-height: 100%;
 }
 
@@ -115,8 +114,7 @@
 .contact {
   display: flex;
   justify-content: space-between;
-  top: 100vh;
-  position: sticky;
+  margin-top: auto;
 }
 
 .footertext {
