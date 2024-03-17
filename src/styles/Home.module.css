@@ -1,7 +1,6 @@
 .wrapper {
   display: grid;
   grid-template-columns: 1fr 4fr;
-  min-height: 100%;
 }
 
 .navi {
@@ -20,7 +19,7 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 2rem;
+  padding: 6rem;
   min-height: 100%;
 }
 
