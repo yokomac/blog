@@ -1,6 +1,7 @@
 .wrapper {
   display: grid;
   grid-template-columns: 1fr 4fr;
+  height: 100%;
 }
 
 .navi {
@@ -11,7 +12,7 @@
 }
 
 .description {
-  padding: 0 60px;
+  padding: 0 30px;
 }
 
 .main {
@@ -19,7 +20,7 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 6rem;
+  padding: 3rem;
   min-height: 100%;
 }
 
@@ -133,7 +134,7 @@
 }
 
 .img {
-  width: 100;
+  width: 100px;
   height: auto;
 }
 
