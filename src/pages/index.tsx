@@ -46,8 +46,8 @@ const Home: NextPage<Props> = ({ allPosts }) => {
             <Image
               src={`${BASE_PATH}/github-mark.svg`}
               alt="github"
-              width={15}
-              height={15}
+              width={20}
+              height={20}
               className={styles.logo}
             />
           </a>
@@ -55,8 +55,8 @@ const Home: NextPage<Props> = ({ allPosts }) => {
             <Image
               src={`${BASE_PATH}/instagram.svg`}
               alt="instagram"
-              width={15}
-              height={15}
+              width={20}
+              height={20}
               className={styles.logo}
             />
           </a>
@@ -64,8 +64,8 @@ const Home: NextPage<Props> = ({ allPosts }) => {
             <Image
               src={`${BASE_PATH}/x-logo.svg`}
               alt="x"
-              width={15}
-              height={15}
+              width={20}
+              height={20}
               className={styles.logo}
             />
           </a>
@@ -73,8 +73,8 @@ const Home: NextPage<Props> = ({ allPosts }) => {
             <Image
               src={`${BASE_PATH}/facebook.svg`}
               alt="facebook"
-              width={15}
-              height={15}
+              width={20}
+              height={20}
               className={styles.logo}
             />
           </a>
