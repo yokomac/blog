@@ -5,9 +5,7 @@ import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import { getAllPosts, getPostBySlug } from "../lib/api";
 import markdownToHtml from "../lib/markdownToHtml";
-
-import { basePath } from "../../next.config" // 追加
-const BASE_PATH = basePath ? basePath : "" // 追加
+import Image from 'next/image'
 
 type Props = InferGetStaticPropsType<typeof getStaticProps>;
 

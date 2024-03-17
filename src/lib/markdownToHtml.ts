@@ -1,5 +1,6 @@
 import { remark } from "remark";
 import html from "remark-html";
+import Image from 'next/image'
 
 /**
  * Markdown を解析して HTML にして返す

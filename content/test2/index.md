@@ -9,6 +9,4 @@ This post is test.
 
 ![Flower](https://github.com/yokomac/blog/blob/main/content/test2/flower.png?raw=true)
 
-<img src="https://github.com/yokomac/blog/blob/main/content/test2/flower.png?raw=true" alt="Flower" width="100"> 
-
-![Flower](${BASE_PATH}/public/images/flower.png)
+<Image src="https://github.com/yokomac/blog/blob/main/content/test2/flower.png?raw=true" alt="Flower" width="100" /> 
