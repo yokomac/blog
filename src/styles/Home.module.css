@@ -8,7 +8,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 100vh;
 }
 
 .description {
@@ -114,7 +113,8 @@
 .contact {
   display: flex;
   justify-content: space-between;
-  margin-top: auto;
+  top: 100vh;
+  position: sticky;
 }
 
 .footertext {
@@ -158,7 +158,7 @@
   .contact {
     display: flex;
     justify-content: space-between;
-    margin-top: auto;
+    margin-top: 20px;
   }
 
   .grid {
