@@ -35,13 +35,15 @@ const Home: NextPage<Props> = ({ allPosts }) => {
           height={100}
           className={styles.logo}
         />
-        <Image
-          src={`${BASE_PATH}/github-mark.svg`} // 修正
-          alt="github"
-          width={30}
-          height={30}
-          className={styles.logo}
-        />
+        <a href="https://github.com/yokomac/">
+          <Image
+            src={`${BASE_PATH}/github-mark.svg`}
+            alt="github"
+            width={30}
+            height={30}
+            className={styles.logo}
+          />
+        </a>
         <h1 className={styles.title}>Yokomac Blog</h1>
 
         <div className={styles.grid}>
