@@ -8,11 +8,11 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 100vh;
+  min-height: 100%;
 }
 
 .description {
-  padding: 0 30px;
+  padding: 20px 30px;
 }
 
 .main {
@@ -22,11 +22,6 @@
   align-items: center;
   padding: 1rem;
   min-height: 100%;
-}
-
-.description {
-  font-size: 0.85rem;
-  z-index: 2;
 }
 
 .grid {
