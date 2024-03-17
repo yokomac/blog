@@ -41,6 +41,7 @@ const Home: NextPage<Props> = ({ allPosts }) => {
           I am a web developer focusing on front-end development.
           Always hungry to keep learning.
         </p>
+        <hr/>
         <div className="contact">
           <a href="https://github.com/yokomac/">
             <Image
@@ -93,11 +94,11 @@ const Home: NextPage<Props> = ({ allPosts }) => {
               </a>
             ))}
           </div>
+          <footer className={styles.footer}>
+            <p className={styles.footertext}>Powered by Next.js.</p>
+          </footer>
         </main>
       </div>
-      <footer className={styles.footer}>
-        <p className={styles.footertext}>Powered by Next.js.</p>
-      </footer>
     </div>
   );
 };
