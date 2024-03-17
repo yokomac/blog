@@ -39,7 +39,6 @@ const Home: NextPage<Props> = ({ allPosts }) => {
         <h4>TAKUTO YOKOMAKU</h4>
         <p className={styles.description}>
           I am a web developer focusing on front-end development.
-          Always hungry to keep learning.
         </p>
         <div className="contact">
           <hr/>
