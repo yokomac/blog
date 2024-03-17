@@ -35,24 +35,47 @@ const Home: NextPage<Props> = ({ allPosts }) => {
           height={85}
           className={styles.logo}
         />
-        <a href="https://github.com/yokomac/">
-          <Image
-            src={`${BASE_PATH}/github-mark.svg`}
-            alt="github"
-            width={30}
-            height={30}
-            className={styles.logo}
-          />
-        </a>
-        <a href="https://instagram.com/make_maku/">
-          <Image
-            src={`${BASE_PATH}/instagram.svg`}
-            alt="instagram"
-            width={30}
-            height={30}
-            className={styles.logo}
-          />
-        </a>
+        <p>
+          I am a web developer focusing on front-end development. Always hungry to keep learning.
+        </p>
+        <div className="contact">
+          <a href="https://github.com/yokomac/">
+            <Image
+              src={`${BASE_PATH}/github-mark.svg`}
+              alt="github"
+              width={30}
+              height={30}
+              className={styles.logo}
+            />
+          </a>
+          <a href="https://instagram.com/make_maku/">
+            <Image
+              src={`${BASE_PATH}/instagram.svg`}
+              alt="instagram"
+              width={30}
+              height={30}
+              className={styles.logo}
+            />
+          </a>
+          <a href="https://x.com/maku_make/">
+            <Image
+              src={`${BASE_PATH}/x-logo.svg`}
+              alt="x"
+              width={30}
+              height={30}
+              className={styles.logo}
+            />
+          </a>
+          <a href="">
+            <Image
+              src={`${BASE_PATH}/facebook.svg`}
+              alt="facebook"
+              width={30}
+              height={30}
+              className={styles.logo}
+            />
+          </a>
+        </div>
         <h1 className={styles.title}>Yokomac Blog</h1>
 
         <div className={styles.grid}>
