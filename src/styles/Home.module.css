@@ -1,3 +1,16 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+}
+
+.navi {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6rem;
+}
+
 .main {
   display: flex;
   flex-direction: column;
