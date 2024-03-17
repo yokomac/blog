@@ -139,10 +139,11 @@
   height: auto;
 }
 
-.content {
+.contact {
   display: flex;
   justify-content: space-between;
-  width: 100%;
+  top: 100vh;
+  position: sticky;
 }
 
 .footertext {
