@@ -36,6 +36,7 @@ const Home: NextPage<Props> = ({ allPosts }) => {
             className={styles.logo}
           />
         </a>
+        <h4>TAKUTO YOKOMAKU</h4>
         <p className={styles.description}>
           I am a web developer focusing on front-end development.
           Always hungry to keep learning.
@@ -81,7 +82,8 @@ const Home: NextPage<Props> = ({ allPosts }) => {
       </div>
       <div className={styles.container}>
         <main className={styles.main}>
-          <h1 className={styles.title}>Yokomac Blog</h1>
+
+          <h1 className={styles.title}>Blog.</h1>
 
           <div className={styles.grid}>
             {allPosts.map((post) => (
