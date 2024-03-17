@@ -144,6 +144,10 @@
   width: 100%;
 }
 
+.footertext {
+  font-size: small;
+}
+
 /* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {
   .card:hover {
