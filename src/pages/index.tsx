@@ -31,14 +31,23 @@ const Home: NextPage<Props> = ({ allPosts }) => {
       <Image
           src={`${BASE_PATH}/next.svg`} // 修正
           alt="self"
-          width={100}
-          height={100}
+          width={85}
+          height={85}
           className={styles.logo}
         />
         <a href="https://github.com/yokomac/">
           <Image
             src={`${BASE_PATH}/github-mark.svg`}
             alt="github"
+            width={30}
+            height={30}
+            className={styles.logo}
+          />
+        </a>
+        <a href="https://instagram.com/make_maku/">
+          <Image
+            src={`${BASE_PATH}/instagram.svg`}
+            alt="instagram"
             width={30}
             height={30}
             className={styles.logo}
