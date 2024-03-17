@@ -28,15 +28,18 @@ const Home: NextPage<Props> = ({ allPosts }) => {
       </Head>
 
       <main className={styles.main}>
-      <Image
-          src={`${BASE_PATH}/next.svg`} // 修正
-          alt="self"
-          width={85}
-          height={85}
-          className={styles.logo}
-        />
+        <a href="https://yokomac.github.io/blog/">
+          <Image
+            src={`${BASE_PATH}/next.svg`} // 修正
+            alt="self"
+            width={85}
+            height={85}
+            className={styles.logo}
+          />
+        </a>
         <p>
-          I am a web developer focusing on front-end development. Always hungry to keep learning.
+          I am a web developer focusing on front-end development.
+          Always hungry to keep learning.
         </p>
         <div className="contact">
           <a href="https://github.com/yokomac/">
