@@ -114,6 +114,11 @@
   margin: 30px;
 }
 
+img {
+  width: 100;
+  height: auto;
+}
+
 /* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {
   .card:hover {
