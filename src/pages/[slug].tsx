@@ -6,6 +6,9 @@ import styles from "../styles/Home.module.css";
 import { getAllPosts, getPostBySlug } from "../lib/api";
 import markdownToHtml from "../lib/markdownToHtml";
 
+import { basePath } from "../../next.config" // 追加
+const BASE_PATH = basePath ? basePath : "" // 追加
+
 type Props = InferGetStaticPropsType<typeof getStaticProps>;
 
 /**

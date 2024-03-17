@@ -11,4 +11,4 @@ This post is test.
 
 <img src="https://github.com/yokomac/blog/blob/main/content/test2/flower.png?raw=true" alt="Flower" width="100"> 
 
-![Flower](/public/images/flower.png)
+![Flower](${BASE_PATH}/public/images/flower.png)
