@@ -9,9 +9,8 @@ import Navigation from '../component/navigation';
 
 type Props = InferGetStaticPropsType<typeof getStaticProps>;
 
-/**
- * 記事のパスを取得する
- */
+// 記事のパスを取得する
+
 export const getStaticPaths = async () => {
   const posts = getAllPosts(["slug"]);
   return {
@@ -26,9 +25,7 @@ export const getStaticPaths = async () => {
   };
 };
 
-/**
- * 記事の内容を取得する
- */
+// 記事の内容を取得する
 export const getStaticProps = async ({ params }: any) => {
   const post = getPostBySlug(params.slug, ["slug", "title", "date", "content"]);
   // Markdown を HTML に変換する
