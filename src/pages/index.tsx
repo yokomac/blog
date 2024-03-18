@@ -4,7 +4,6 @@ import styles from "../styles/Home.module.css";
 import { getAllPosts } from "../lib/api";
 // import Navigation from '../component/navigation';
 import Image from 'next/image'
-import Link from 'next/link';
 
 type Props = InferGetStaticPropsType<typeof getStaticProps>;
 
@@ -29,7 +28,7 @@ const Home: NextPage<Props> = ({ allPosts }) => {
       <div className={styles.wrapper}>
         <div className={styles.navi}>
           <div className={styles.naviContent}>
-            <Link href="https://yokomac.github.io/blog/"> {/* リンク追加 */}
+            <a href="https://yokomac.github.io/blog/"> {/* リンク追加 */}
               <a>
                 <Image
                   src={`${BASE_PATH}/next.svg`} // 修正
@@ -39,7 +38,7 @@ const Home: NextPage<Props> = ({ allPosts }) => {
                   className={styles.logo}
                 />
               </a>
-            </Link>
+            </a>
             <h4 className={styles.name}>TAKUTO YOKOMAKU</h4>
             <p className={styles.description}>
               I am a web developer focusing on front-end development.
