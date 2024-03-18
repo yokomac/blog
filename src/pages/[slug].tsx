@@ -5,7 +5,7 @@ import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import { getAllPosts, getPostBySlug } from "../lib/api";
 import markdownToHtml from "../lib/markdownToHtml";
-import Navigation from '../component/navigation';
+// import Navigation from '../component/navigation';
 
 type Props = InferGetStaticPropsType<typeof getStaticProps>;
 
@@ -54,7 +54,6 @@ const Post: NextPage<Props> = ({ post }) => {
         <link rel="icon" href="/blog/favicon.ico" sizes="any" />
       </Head>
       <div className={styles.wrapper}>
-        <Navigation />
         <main className={styles.main}>
           <article>
             <h1 className={styles.title}>{post.title}</h1>
