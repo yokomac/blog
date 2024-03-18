@@ -36,7 +36,7 @@ const Home: NextPage<Props> = ({ allPosts }) => {
             className={styles.logo}
           />
         </a>
-        <h4>TAKUTO YOKOMAKU</h4>
+        <h4 className={styles.name}>TAKUTO YOKOMAKU</h4>
         <p className={styles.description}>
           I am a web developer focusing on front-end development.
         </p>
