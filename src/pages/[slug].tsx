@@ -5,7 +5,6 @@ import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import { getAllPosts, getPostBySlug } from "../lib/api";
 import markdownToHtml from "../lib/markdownToHtml";
-import Image from 'next/image'
 
 type Props = InferGetStaticPropsType<typeof getStaticProps>;
 
