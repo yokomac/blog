@@ -101,11 +101,6 @@
   margin: 30px;
 }
 
-img {
-  width: 100px;
-  height: auto;
-}
-
 .contact {
   display: flex;
   justify-content: space-between;
