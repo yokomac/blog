@@ -27,7 +27,7 @@ const Home: NextPage<Props> = ({ allPosts }) => {
         <link rel="icon" href="/blog/favicon.ico" sizes="any" />
       </Head>
       <div className={styles.navi}>
-        <div>
+        <div className={styles.naviContent}>
           <a href="https://yokomac.github.io/blog/">
             <Image
               src={`${BASE_PATH}/next.svg`} // 修正
