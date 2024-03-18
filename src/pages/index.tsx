@@ -27,19 +27,21 @@ const Home: NextPage<Props> = ({ allPosts }) => {
         <link rel="icon" href="/blog/favicon.ico" sizes="any" />
       </Head>
       <div className={styles.navi}>
-        <a href="https://yokomac.github.io/blog/">
-          <Image
-            src={`${BASE_PATH}/next.svg`} // 修正
-            alt="self"
-            width={85}
-            height={85}
-            className={styles.logo}
-          />
-        </a>
-        <h4 className={styles.name}>TAKUTO YOKOMAKU</h4>
-        <p className={styles.description}>
-          I am a web developer focusing on front-end development.
-        </p>
+        <div>
+          <a href="https://yokomac.github.io/blog/">
+            <Image
+              src={`${BASE_PATH}/next.svg`} // 修正
+              alt="self"
+              width={85}
+              height={85}
+              className={styles.logo}
+            />
+          </a>
+          <h4 className={styles.name}>TAKUTO YOKOMAKU</h4>
+          <p className={styles.description}>
+            I am a web developer focusing on front-end development.
+          </p>
+        </div>
         <div className="contact">
           <hr/>
           <a href="https://github.com/yokomac/">
