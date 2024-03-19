@@ -12,7 +12,6 @@
   min-height: 100%;
   position: -webkit-sticky;/*Safari*/
 	position: sticky;
-  left: 0;
 }
 
 .naviContent {
