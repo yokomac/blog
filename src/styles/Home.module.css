@@ -167,15 +167,13 @@
     min-height: 100vh;
     position: none;
 	  top: none;
+    overflow: hidden;
   }
 
   .navi {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: auto;
-    position: none;
-	  top: none;
   }
 
   .contact {
