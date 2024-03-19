@@ -165,8 +165,6 @@
     flex-direction: column;
     align-items: center;
     min-height: 100vh;
-    position: none;
-	  top: none;
     overflow: hidden;
   }
 
@@ -174,6 +172,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: none;
+	  top: none;
   }
 
   .contact {
