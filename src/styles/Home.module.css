@@ -10,7 +10,7 @@
   align-items: center;
   justify-content: space-between;
   position: sticky;
-  max-height: 100vh;
+  height: 100vh;
 }
 
 .naviContent {
@@ -129,6 +129,7 @@
 }
 
 .post {
+  padding-top: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
