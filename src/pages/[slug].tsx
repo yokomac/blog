@@ -116,11 +116,9 @@ const Post: NextPage<Props> = ({ post }) => {
         <main className={styles.main}>
           <article className={styles.post}>
             <h1>{post.title}</h1>
+            <p>{post.date}</p>
             <div className={styles.post}>
-              <div>
-                <p>{post.date}</p>
-                <div dangerouslySetInnerHTML={{ __html: post.content }} />
-              </div>
+              <div dangerouslySetInnerHTML={{ __html: post.content }} />
             </div>
           </article>
           <footer className={styles.footer}>
