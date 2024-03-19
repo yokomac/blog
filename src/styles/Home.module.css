@@ -10,8 +10,6 @@
   justify-content: space-between;
   align-items: center;
   min-height: 100%;
-  position: -webkit-sticky;/*Safari*/
-	position: sticky;
 }
 
 .naviContent {
