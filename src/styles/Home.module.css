@@ -1,7 +1,7 @@
 .wrapper {
   display: grid;
   grid-template-columns: 1fr 4fr;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .navi {
@@ -9,6 +9,7 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  min-height: 100%;
 }
 
 .naviContent {
