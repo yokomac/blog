@@ -9,6 +9,7 @@
   flex-direction: column;
   align-items: center;
   height: 100vh;
+  justify-content: space-between;
   position: sticky;
 	top: 0;
 }
@@ -170,8 +171,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    position: none;
-    top: none;
   }
 
   .contact {
