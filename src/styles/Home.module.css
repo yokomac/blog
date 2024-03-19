@@ -163,13 +163,14 @@
     flex-direction: column;
     align-items: center;
     min-height: 100%;
-    position: none;
   }
 
   .navi {
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: none;
+    top: none;
   }
 
   .contact {
