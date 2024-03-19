@@ -125,6 +125,26 @@
   height: 100vh;
 }
 
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: large;
+}
+
+.post {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.date {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
 /* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {
   .card:hover {
@@ -185,22 +205,6 @@
   .center::before {
     transform: none;
     height: 300px;
-  }
-
-  .description {
-    font-size: 0.8rem;
-  }
-
-  .description a {
-    padding: 1rem;
-  }
-
-  .description p,
-  .description div {
-    display: flex;
-    justify-content: center;
-    position: fixed;
-    width: 100%;
   }
 }
 
