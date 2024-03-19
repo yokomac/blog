@@ -114,11 +114,11 @@ const Post: NextPage<Props> = ({ post }) => {
           </div>
         </div>
         <main className={styles.main}>
-          <article>
+          <article className={styles.post}>
             <h1 className={styles.title}>{post.title}</h1>
             <div className={styles.grid}>
-              <div className={styles.post}>
-                <p className={styles.date}>{post.date}</p>
+              <div>
+                <p>{post.date}</p>
                 <div dangerouslySetInnerHTML={{ __html: post.content }} />
               </div>
             </div>

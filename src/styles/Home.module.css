@@ -126,23 +126,13 @@
 }
 
 .title {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   font-size: large;
 }
 
 .post {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
-}
-
-.date {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding-bottom: 20px;
 }
 
 /* Enable hover only on non-touch devices */
