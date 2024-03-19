@@ -101,7 +101,8 @@ a {
 }
 
 img {
-  border-radius: 30px;
+  border-radius: 18px;
+  max-width: 600px;
 }
 
 @media (prefers-color-scheme: dark) {
